@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - MobileInfo.db" uuid="33762d7c-e18e-4dd6-8dce-7c2414a0a2e3">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="MAKERS" schema="" catalog="" type="TABLE">
+      <column name="ID" sqlType="INT" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="NAME" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ADDRESS" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="NUMBER" sqlType="INT" precision="0" scale="-1" nullable="false" jdbcType="4" def="MA=="/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="MODELS" schema="" catalog="" type="TABLE">
+      <column name="ID" sqlType="INT" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="MAKER" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="MODEL" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="ADDRESS" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="IMAGE_ADDRESS" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="PATH" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+  </data-source>
+</component>
